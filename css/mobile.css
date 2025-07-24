@@ -170,7 +170,7 @@
   
   border-radius: 10px;
   backdrop-filter:brightness(0.9),opacity(80%);
-  background-image: url(assets/deal-bloom.png);
+  background-image: url(../assets/deal-bloom.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -186,7 +186,7 @@
   height: 190px;
   border-radius: 10px;
   backdrop-filter:brightness(0.9),opacity(80%);
-  background-image: url(assets/deal-ana.png);
+  background-image: url(../assets/deal-ana.png);
   background-size: cover;
 }
 
@@ -203,7 +203,7 @@
   border-radius: 10px;
   height: 190px;
   
-  background-image: url(assets/deal-zabo.png);
+  background-image: url(../assets/deal-zabo.png);
   backdrop-filter:brightness(0.9),opacity(80%);
   background-repeat: no-repeat;
   background-size: cover;
