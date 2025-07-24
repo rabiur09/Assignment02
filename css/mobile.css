@@ -1,0 +1,21 @@
+@media screen and (max-width:576px) {
+    .nav-menu-list ul{
+        display: none;
+
+    }
+    .nav-menu{
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 10px;
+        width: auto;
+        align-items: center;
+    }
+    .nav-menu-list p{
+        font-size: 1.25rem;
+        
+    }
+    .nav-menu img{
+    width: 115px;
+    height: 60px;
+    }
+}

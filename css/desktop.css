@@ -1,0 +1,108 @@
+
+/* primary color set */
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.dark01{
+  color: rgba(0, 0, 0, 1);
+}
+
+.dark02{
+  color: rgba(37, 36, 50, 1);
+}
+
+.dark03{
+  
+  color: rgba(0, 0, 0, 0.5);
+}
+
+body{
+  /* background-color: rgba(137, 135, 161, 1); */
+}
+
+
+
+
+
+@media screen and (min-width:577px) and (max-width:1576px){
+  
+
+.nav-menu img{
+    width: 135px;
+    height: 80px;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 150px;
+    align-items: center;
+    
+
+}
+.nav-menu-list ul{
+  display: flex;  
+  list-style: none;
+  align-items: center;
+  gap: 45px ;
+  
+}
+
+.nav-menu-list{
+  display: flex;
+  align-items: center;
+  gap: 45px ;
+}
+.nav-menu-list a{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5); ;
+}
+.nav-menu-list li:first-child{
+  color: black;
+  font-weight: bold;
+}
+
+
+  
+/* nav-titel working here */
+
+.nav-titel{
+  
+  display: flex;
+  margin: 50px 150px;
+  
+}
+.nav-titel>div{
+  width: 50%;
+}
+.nav-titel-discrip{
+  margin-top: 120px;
+  height: 300px;
+  
+}
+.nav-titel-discrip h1{
+  font-size: 3.5rem;
+  text-overflow: ellipsis;
+}
+.nav-titel-discrip p{
+  font-size: 1rem;
+  text-overflow: ellipsis;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+.nav-titel-img{
+ 
+  height: 355px;
+  margin-top: 65px;
+}
+
+}
