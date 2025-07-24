@@ -225,7 +225,7 @@
   width: 100%;
   gap: 20px ;
   height:280px ;
-  background-image: url(assets/news-letter-bg.png);
+  background-image: url(../assets/news-letter-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   
