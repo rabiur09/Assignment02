@@ -79,4 +79,35 @@
     display: none;
 }
 
+
+/* Flower-plants working here */
+
+.flower-plants{
+    display: flex;
+    flex-direction: column;
+}
+.flower-plants-images{
+    width: 100%;
+    margin: 40px 0px;
+}
+.flower-plants-titel{
+    width: 100%;
+    margin: 0px 5px;
+}
+
+.flower-plants-titel h1{
+    font-size: 2rem;
+    padding: 10px 0px;
+}
+.flower-plants-titel ul{
+    margin: 10px 15px;
+}
+.flower-plants-titel li{
+    list-style: circle;
+    margin: 5px 10px;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: justify;
+}
+
+
 }
