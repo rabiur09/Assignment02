@@ -108,6 +108,145 @@
     color: rgba(0, 0, 0, 0.5);
     text-align: justify;
 }
+/* deals working here */
+
+
+
+
+
+
+.deals{
+    width: 100%;
+    margin: 20px 0px;
+}
+.deal-sub-titel{
+    margin: 5px 30px;
+    padding: 5px;
+    color: rgba(0, 0, 0, 0.5);
+    border: 1px solid black;
+}
+
+
+
+
+/* discount working here */
+
+.discount{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px   ;
+    
+}
+.discount a{
+  /* text-decoration: underline;
+  font-size: 2rem; */
+  display: inline-block;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-bottom: 2px solid white;
+  padding-bottom: 1px;
+  
+  
+}
+.none-split{
+    margin: 10px 10px;
+}
+.split-sction{
+      display: flex;
+      flex-direction: column;
+      margin: 10px 10px;
+      gap: 10px;
+}
+.bloom-plant{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  color:#FFFF;
+  height: 190px;
+  
+  border-radius: 10px;
+  backdrop-filter:brightness(0.9),opacity(80%);
+  background-image: url(/assets/deal-bloom.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ana-plant{
+   
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  color:#FFFF;
+  height: 190px;
+  border-radius: 10px;
+  backdrop-filter:brightness(0.9),opacity(80%);
+  background-image: url(/assets/deal-ana.png);
+  background-size: cover;
+}
+
+
+
+.none-split-sction{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  color:#FFFF;
+  height: 100%;
+  border-radius: 10px;
+  height: 190px;
+  
+  background-image: url(/assets/deal-zabo.png);
+  backdrop-filter:brightness(0.9),opacity(80%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+/* feedback working here */
+
+.feedback-titel p{
+    font-size: 1.25rem;
+}
+.feedback{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+  width: 100%;
+  gap: 20px ;
+  height:280px ;
+  background-image: url(/assets/news-letter-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.input-section .input-box{
+  width: 65%;
+  height: 25px;
+  border-radius: 5px;
+  
+  
+  background-color: rgb(243, 237, 237);
+}
+
+.Input button{
+  width: 90px;
+  background-color: #E95A08;
+  height: 25px;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+}
 
 
 }
